@@ -8,10 +8,10 @@ st.set_page_config(layout="wide")
 st.title('Douglas Winston')
 
 data = [
-        {'Ano': 2019, 'Gestão de Pessoas': 0.0, 'Entrega de Valor': 2.0, 'Dados e Analytics': 3.0, 'Criatividade e Soluções': 3.0, 'Gestão de Produto': 1.0},
-        {'Ano': 2020, 'Gestão de Pessoas': 1.0, 'Entrega de Valor': 2.5, 'Dados e Analytics': 3.5, 'Criatividade e Soluções': 3.5, 'Gestão de Produto': 2.5},
-        {'Ano': 2021, 'Gestão de Pessoas': 2.0, 'Entrega de Valor': 3.5, 'Dados e Analytics': 4.0, 'Criatividade e Soluções': 3.8, 'Gestão de Produto': 2.8},
-        {'Ano': 2022, 'Gestão de Pessoas': 3.8, 'Entrega de Valor': 4.1, 'Dados e Analytics': 4.2, 'Criatividade e Soluções': 4.0, 'Gestão de Produto': 3.0},
+        {'Ano': 2019, 'Gestão de Pessoas': 0.5, 'Entrega de Valor': 1.5, 'Dados e Analytics': 2.0, 'Criatividade e Soluções': 3.0, 'Gestão de Produto': 0.5},
+        {'Ano': 2020, 'Gestão de Pessoas': 1.0, 'Entrega de Valor': 2.5, 'Dados e Analytics': 3.5, 'Criatividade e Soluções': 3.5, 'Gestão de Produto': 1.5},
+        {'Ano': 2021, 'Gestão de Pessoas': 2.0, 'Entrega de Valor': 3.5, 'Dados e Analytics': 4.0, 'Criatividade e Soluções': 3.8, 'Gestão de Produto': 2.5},
+        {'Ano': 2022, 'Gestão de Pessoas': 3.8, 'Entrega de Valor': 4.1, 'Dados e Analytics': 4.5, 'Criatividade e Soluções': 4.0, 'Gestão de Produto': 3.0},
         ]
 
 df = pd.DataFrame(data)
@@ -24,12 +24,12 @@ df_melted = df.melt(id_vars=['Ano'],
                                         'Gestão de Produto'])
 
 
-coluna_header = st.columns(3, gap='small')
+coluna_header = st.columns(4, gap='small')
 
 perfil = Image.open('perfil.jpeg')
-personalidade = Image.open('personalidade.png', width=300)
+personalidade = Image.open('personalidade.png')
 
-coluna_header[0].image(perfil)
+coluna_header[0].image(perfil, width=350)
 
 fig = px.line_polar(df_melted, r='value', theta='variable', color='Ano', color_discrete_sequence=px.colors.qualitative.G10, line_close=True, render_mode='SVG')
 
@@ -40,13 +40,39 @@ fig.update_layout(legend=dict(
     x=0.5
 ))
 
-coluna_header[1].markdown('São Paulo, SP')
-coluna_header[1].markdown('+55 62 996990837')
-coluna_header[1].markdown('douglas.winston.r@gmail.com')
-coluna_header[1].markdown('[linkedin.com/in/douglas-winston](https://www.linkedin.com/in/douglas-winston/)')
-coluna_header[1].markdown('[github.com/douglaswinstonr](https://github.com/douglaswinstonr)')
+fig.update_layout(
+    template=None,
+    polar = dict(
+        radialaxis = dict(range=[0, 5], showticklabels=False, ticks=''),
+        # angularaxis = dict(showticklabels=False, ticks='')
+    )
+)
 
-st.write(fig)
+# coluna_header[1].markdown(' ')
+# coluna_header[1].markdown(' ')
+# coluna_header[1].markdown(' ')
+# coluna_header[1].markdown('São Paulo, SP')
+# coluna_header[1].markdown('+55 62 996990837')
+# coluna_header[1].markdown('douglas.winston.r@gmail.com')
+# coluna_header[1].markdown('[linkedin.com/in/douglas-winston](https://www.linkedin.com/in/douglas-winston/)')
+# coluna_header[1].markdown('[github.com/douglaswinstonr](https://github.com/douglaswinstonr)')
+
+html_componet = """<div style="text-align: center"> your-text-here </div>"""
+
+coluna_header[1].markdown(' ')
+coluna_header[1].markdown(' ')
+coluna_header[1].markdown(' ')
+coluna_header[1].markdown(' ')
+coluna_header[1].markdown(' ')
+coluna_header[1].markdown(' ')
+coluna_header[1].markdown("<p style='text-align: center;'>São Paulo, SP</p>", unsafe_allow_html=True)
+coluna_header[1].markdown("<p style='text-align: center;'>+55 62 996990837</p>", unsafe_allow_html=True)
+coluna_header[1].markdown("<p style='text-align: center;'>douglas.winston.r@gmail.com</p>", unsafe_allow_html=True)
+coluna_header[1].markdown("<p style='text-align: center;'>linkedin.com/in/douglas-winston</p>", unsafe_allow_html=True)
+coluna_header[1].markdown("<p style='text-align: center;'>github.com/douglaswinstonr</p>", unsafe_allow_html=True)
+
+
+coluna_header[2].write(fig)
 st.markdown('### Experiência')
 st.markdown("""
 ##### 2022, **Coordenador de Dados**, Recovery, São Paulo, SP (***1 ano e 3 meses)***
@@ -159,7 +185,7 @@ st.markdown("""
 - 2020, A Systematic Mapping Study on Software Testing for Systems-of-Systems
 - 2020, Selecting Important Features Interactions In A Click-Through-Rate Application Using Genetic Algorithms
 - 2020, Adaptive Multilayer Perceptron
-- 2019 A Multi-Objective Evolutionary Approach For Optimizing Pickup and Delivery Locations In A Demand Responsive Transport Service
+- 2019, A Multi-Objective Evolutionary Approach For Optimizing Pickup and Delivery Locations In A Demand Responsive Transport Service
 - 2019, GAEEII: An Optimised Genetic Algorithm Endmember Extractor for Hyperspectral Unmixing
 - 2018, Comparison of VCA and GAEE algorithms for Endmember Extraction
 - 2018, TensorNet: Classificação de Protozoários
