@@ -40,14 +40,13 @@ fig.update_layout(legend=dict(
     x=0.5
 ))
 
-coluna_header[1].write(fig)
+coluna_header[1].markdown('São Paulo, SP')
+coluna_header[1].markdown('+55 62 996990837')
+coluna_header[1].markdown('douglas.winston.r@gmail.com')
+coluna_header[1].markdown('[linkedin.com/in/douglas-winston](https://www.linkedin.com/in/douglas-winston/)')
+coluna_header[1].markdown('[github.com/douglaswinstonr](https://github.com/douglaswinstonr)')
 
-st.markdown('São Paulo, SP')
-st.markdown('+55 62 996990837')
-st.markdown('douglas.winston.r@gmail.com')
-st.markdown('[linkedin.com/in/douglas-winston](https://www.linkedin.com/in/douglas-winston/)')
-st.markdown('[github.com/douglaswinstonr](https://github.com/douglaswinstonr)')
-
+st.write(fig)
 st.markdown('### Experiência')
 st.markdown("""
 ##### 2022, **Coordenador de Dados**, Recovery, São Paulo, SP (***1 ano e 3 meses)***
