@@ -27,7 +27,7 @@ df_melted = df.melt(id_vars=['Ano'],
 coluna_header = st.columns(3, gap='small')
 
 perfil = Image.open('perfil.jpeg')
-personalidade = Image.open('personalidade.png')
+personalidade = Image.open('personalidade.png', width=300)
 
 coluna_header[0].image(perfil)
 
