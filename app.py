@@ -41,12 +41,12 @@ fig.update_layout(legend=dict(
 ))
 
 coluna_header[1].write(fig)
-colunas = st.columns(5, gap='small')
-colunas[0].markdown('São Paulo, SP')
-colunas[1].markdown('+55 62 996990837')
-colunas[2].markdown('douglas.winston.r@gmail.com')
-colunas[3].markdown('[linkedin.com/in/douglas-winston](https://www.linkedin.com/in/douglas-winston/)')
-colunas[4].markdown('[github.com/douglaswinstonr](https://github.com/douglaswinstonr)')
+
+st.markdown('São Paulo, SP')
+st.markdown('+55 62 996990837')
+st.markdown('douglas.winston.r@gmail.com')
+st.markdown('[linkedin.com/in/douglas-winston](https://www.linkedin.com/in/douglas-winston/)')
+st.markdown('[github.com/douglaswinstonr](https://github.com/douglaswinstonr)')
 
 st.markdown('### Experiência')
 st.markdown("""
