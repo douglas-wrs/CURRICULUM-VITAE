@@ -24,7 +24,7 @@ df_melted = df.melt(id_vars=['Ano'],
                                         'Gestão de Produto'])
 
 
-coluna_header = st.columns(4, gap='small')
+coluna_header = st.columns((2, 1, 2, 5), gap='small')
 
 perfil = Image.open('perfil.jpeg')
 personalidade = Image.open('personalidade.png')
@@ -51,34 +51,34 @@ fig.update_layout(
 # coluna_header[1].markdown(' ')
 # coluna_header[1].markdown(' ')
 # coluna_header[1].markdown(' ')
-# coluna_header[1].markdown('São Paulo, SP')
-# coluna_header[1].markdown('+55 62 996990837')
-# coluna_header[1].markdown('douglas.winston.r@gmail.com')
-# coluna_header[1].markdown('[linkedin.com/in/douglas-winston](https://www.linkedin.com/in/douglas-winston/)')
-# coluna_header[1].markdown('[github.com/douglaswinstonr](https://github.com/douglaswinstonr)')
+coluna_header[2].markdown('São Paulo, SP')
+coluna_header[2].markdown('+55 62 996990837')
+coluna_header[2].markdown('douglas.winston.r@gmail.com')
+coluna_header[2].markdown('[linkedin.com/in/douglas-winston](https://www.linkedin.com/in/douglas-winston/)')
+coluna_header[2].markdown('[github.com/douglaswinstonr](https://github.com/douglaswinstonr)')
 
 html_componet = """<div style="text-align: center"> your-text-here </div>"""
 
-coluna_header[1].markdown(' ')
-coluna_header[1].markdown(' ')
-coluna_header[1].markdown(' ')
-coluna_header[1].markdown(' ')
-coluna_header[1].markdown(' ')
-coluna_header[1].markdown(' ')
-coluna_header[1].markdown("<p style='text-align: center;'>São Paulo, SP</p>", unsafe_allow_html=True)
-coluna_header[1].markdown("<p style='text-align: center;'>+55 62 996990837</p>", unsafe_allow_html=True)
-coluna_header[1].markdown("<p style='text-align: center;'>douglas.winston.r@gmail.com</p>", unsafe_allow_html=True)
-coluna_header[1].markdown("<p style='text-align: center;'>linkedin.com/in/douglas-winston</p>", unsafe_allow_html=True)
-coluna_header[1].markdown("<p style='text-align: center;'>github.com/douglaswinstonr</p>", unsafe_allow_html=True)
+# coluna_header[1].markdown(' ')
+# coluna_header[1].markdown(' ')
+# coluna_header[1].markdown(' ')
+# coluna_header[1].markdown(' ')
+# coluna_header[1].markdown(' ')
+# coluna_header[1].markdown(' ')
+# coluna_header[1].markdown("<p style='text-align: right;'>São Paulo, SP</p>", unsafe_allow_html=True)
+# coluna_header[1].markdown("<p style='text-align: right;'>+55 62 996990837</p>", unsafe_allow_html=True)
+# coluna_header[1].markdown("<p style='text-align: right;'>douglas.winston.r@gmail.com</p>", unsafe_allow_html=True)
+# coluna_header[1].markdown("<p style='text-align: right;'>linkedin.com/in/douglas-winston</p>", unsafe_allow_html=True)
+# coluna_header[1].markdown("<p style='text-align: right;'>github.com/douglaswinstonr</p>", unsafe_allow_html=True)
 
 
-coluna_header[2].write(fig)
+coluna_header[3].write(fig)
 st.markdown('### Experiência')
 st.markdown("""
 ##### 2022, **Coordenador de Dados**, Recovery, São Paulo, SP (***1 ano e 3 meses)***
 
-- Ajudo um time excepcional a construir ferramentas baseadas em **dados** e **inteligência artificial** para a **precificação de carteiras de créditos** corporativos **inadimplidos**.
-- Aplico diariamente técnicas de **descoberta de produto**, **testes de funcionalidade** com usuários especialistas e avaliações constantes da **proposta de valor** de cada feature e entrega.
+- Junto com um time excepcional ajudei a construir ferramentas baseadas em **dados** e **inteligência artificial** para a **precificação de carteiras de créditos** corporativos **inadimplidos**.
+- A cada sprint fazemos **descoberta de produto**, **testes de funcionalidade** com usuários especialistas e avaliações constantes da **proposta de valor** de cada funcionalidade.
 - Utilizamos o máximo de **processamento e tratamento de dados** internos e de mercado para o treinamento de **modelos estatísticos e computacionais** robustos.
 - Conseguimos com cada melhoria nas **métricas dos modelos** e **usabilidade do produto**, reduzir o **risco de investimento de centenas de milhões de reais**.
 - Tenho orgulho de dizer que construimos uma das **ferramentas mais avançadas** do pais no que diz respeito a **recuperação de crédito**.
@@ -88,58 +88,58 @@ st.markdown("""
 st.markdown("""
 ##### 2021, **Cientista de Dados,** Carajás, Maceió, AL, (***1 ano***)
 
-- Como consultor ajudei a mapear as **etapas da jornada do cliente** nas **lojas online** e de lojas **físicas** de produtos relacionados a **construção, decoração e utensílios**.
-- Identifiquei e implementei **soluções de dados** para guiar **ações de CRM** e comunicação com o cliente usando a base de dados de 10 lojas virtuais e físicas.
-- Construí **modelos de segmentação** e **classificação** da base de clientes para identificar o tempo e fase certa em que o cliente se encontra.
-- Definição de **fluxos de tranformações de dados** brutos em **visões simples e ricas** com todas as definições de negócio.
-- Elaborei **paíneis de acompanhamento** com filtros **interativos** para que a gestão de vendas consiga segmentar listas de clientes de acordo com critérios de uma campanha específica.
+- Como consultor ajudei a mapear as **etapas da jornada do cliente** nas **lojas online** e de lojas **físicas** de produtos relacionados a **construção, decoração e utensílios domésticos**.
+- Em reuniões semanais indificamos e propomos **soluções de dados** para guiar **ações de comunicação** com o cliente (CRM) usando a base de dados de 10 lojas virtuais e físicas.
+- Foram construidos **modelos de segmentação** e **classificação** da base de clientes para identificar o tempo e a fase da construção do cliente.
+- Foi elaborado **paíneis de acompanhamento** com filtros **interativos** para que a gestão de vendas consiga segmentar clientes de acordo com critérios de uma campanha de marketing.
 
 **Habilidades**: Business Strategy · SQL · Qlik Sense · CRM · Customer Segmentation · Product Vision · Data Analysis
 """)
 st.markdown("""
 ##### 2021, Cientista de Dados, Grupo Saga, Goiânia, GO, (1 ano)
 
-- X
-- Y
-- Z
+- Construção e disseminação de produtos de dados para as concessionárias automobilísticas de diversas marcas do Grupo Saga (Toyota, BMW, Volkswagen, entre outras).
+- Realizamos a análise de evasão de clientes em revisões programadas, análise de recompra de veículos novos e a segmentação da base de clientes por critérios do negócio.
+- Construímos também o processo de extração e recomendação de precificação de assinaturas de carros da concessionária.
 
-**Habilidades**: 
+**Habilidades**: Gestão de projetos · SQL · Google Cloud · Dataform · Data Scrapping · Amazon Athena · S3 · PySpark
 """)
 st.markdown("""
 ##### 2020, Cientista de Dados, Acordo Certo, São Paulo, SP,  (1 ano e 2 meses)
 
-- X
-- Y
-- Z
+- Parte de uma equipe de cientistas de dados com foco na construção de um processo de tomada de decisão para acionamentos de consumidores com inadimplência.
+- Foram desenvolvidos modelos de propensão de cadastro e de pagamento de acordo em site de marketplace de créditos inadimplidos.
+- Foi implementado modelos de LTV para estimar o valor de recuperação para cada consumidor/cliente otimizando os custos com acionamentos nos canais de sms e e-mail.
+- Diariamente alivamos as métricas relevantes para o negócio como taxa de clique, quantidade de cadastros e acordos, e entre outros.
 
-**Habilidades**: 
+**Habilidades**: Google Cloud · Big Query · SQL · DataForm · Modelos de Propensão · Data Studio
 """)
 st.markdown("""
 ##### 2019, Cientista de Dados, HP Transportes, Goiânia, GO, (1 ano e 4 meses)
 
-- X
-- Y
-- Z
+- Extrações de dados para processos de inteligência competitiva com objetivo de otimizar estratégias de marketing de serviço de MAAS (Mobility As A Service).
+- Modelagem de dados geográficos para soluções de mobilidade urbana com foco na resolução de problemas relacionados ao transporte compartilhado na região metropolitana.
+- Estudo de conceitos de centralidades urbanas no âmbito do transporte público.
+- Construção de um produto de dados para acompanhar os preços de viagens dos serviços concorrentes (Uber e 99).
 
-**Habilidades**: 
+**Habilidades**: Qlik Sense · Google Earth · QGis · Data Scrappig 
 """)
 st.markdown("""
 ##### 2018, Analista de Dados, Grupo Jaime Câmera, Goiânia, GO, (1 ano e 4 meses)
 
-- X
-- Y
-- Z
+- Forneci insights e soluções de SEO para produtos importantes do grupo, como o site de notícias Jornal O Popular
+- Visualização e monitoramente de indicadores-chave de desempenho relacionadas ao tráfego orgânico e pago dos sites do Grupo.
+- Modelagem e extração de dados de audiência de TV fornecidos pelo IBOPE
 
-**Habilidades**: 
+**Habilidades**: SEO · Web Development · React · Java Script · Microsoft Azure · Kantar Media
 """)
 st.markdown("""
 ##### 2015, Pesquisador, Jacobs School of Engineering, San Diego, CA, (3 meses)
 
-- X
-- Y
-- Z
+- Ajudei construção de uma plataforma de coleta de imagens em tempo real usando o Microsoft Kinect e C# com o objetivo de monitorar ambientes hospitalares.
+- Processamento de imagens de profundidae usadas para insumos para algoritmos de detecção de movimento e queda alertando equipes médicas sobre o estado do paciente.
 
-**Habilidades**: 
+**Habilidades**: C#, Microsoft Kinect SDK, Image Processing
 """)
 
 st.markdown('### Educação')
