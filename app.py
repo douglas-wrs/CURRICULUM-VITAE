@@ -77,69 +77,69 @@ st.markdown('### Experiência')
 st.markdown("""
 ##### 2022, **Coordenador de Dados**, Recovery, São Paulo, SP (***1 ano e 3 meses)***
 
-- Junto com um time excepcional ajudei a construir ferramentas baseadas em **dados** e **inteligência artificial** para a **precificação de carteiras de créditos** corporativos **inadimplidos**.
-- A cada sprint fazemos **descoberta de produto**, **testes de funcionalidade** com usuários especialistas e avaliações constantes da **proposta de valor** de cada funcionalidade.
-- Utilizamos o máximo de **processamento e tratamento de dados** internos e de mercado para o treinamento de **modelos estatísticos e computacionais** robustos.
-- Conseguimos com cada melhoria nas **métricas dos modelos** e **usabilidade do produto**, reduzir o **risco de investimento de centenas de milhões de reais**.
-- Tenho orgulho de dizer que construimos uma das **ferramentas mais avançadas** do pais no que diz respeito a **recuperação de crédito**.
+- Liderei um time excepcional a construir ferramentas baseadas em dados e inteligência artificial para a precificação de carteiras de créditos inadimplidos.
+- A cada Sprint fizemos descoberta de produto, testes de funcionalidade com usuários especialistas e avaliações constantes da proposta de valor de cada funcionalidade.
+- Utilizamos o máximo de processamento e tratamento de dados internos e de mercado para o treinamento de modelos estatísticos e computacionais robustos.
+- Conseguimos com cada melhoria nas métricas dos modelos e usabilidade do produto, reduzir o risco de investimento de centenas de milhões de reais.
+- Tenho orgulho de dizer que construímos uma das ferramentas mais avançadas do pais no que diz respeito a recuperação de crédito.
 
-**Habilidades**: Product Management · Agile · Scrum  · Python · PySpark · Power BI · Classification · Regression · Survival · Boosting · Neural Networks · Azure · Databricks · Streamlit
+**Habilidades**: Product Management · Agile · Scrum · Python · PySpark · Power BI · Classification · Regression · Survival · Boosting · Neural Networks · Azure · Databricks · Streamlit
 """)
 st.markdown("""
 ##### 2021, **Cientista de Dados,** Carajás, Maceió, AL, (***1 ano***)
 
-- Como consultor ajudei a mapear as **etapas da jornada do cliente** nas **lojas online** e de lojas **físicas** de produtos relacionados a **construção, decoração e utensílios domésticos**.
-- Em reuniões semanais indificamos e propomos **soluções de dados** para guiar **ações de comunicação** com o cliente (CRM) usando a base de dados de 10 lojas virtuais e físicas.
-- Foram construidos **modelos de segmentação** e **classificação** da base de clientes para identificar o tempo e a fase da construção do cliente.
-- Foi elaborado **paíneis de acompanhamento** com filtros **interativos** para que a gestão de vendas consiga segmentar clientes de acordo com critérios de uma campanha de marketing.
+- Como consultor ajudei a mapear as etapas da jornada do cliente nas lojas online e físicas de produtos relacionados a construção, decoração e utensílios domésticos.
+- Em reuniões semanais identifiquei e propus soluções de dados para guiar ações de comunicação com o cliente (CRM) usando a base de dados de 10 lojas online e físicas.
+- Desenvolvi modelos de segmentação e classificação de clientes para identificar o tempo e a fase da construção na obra ou reforma do cliente.
+- Elaborei painéis de acompanhamento com filtros interativos para que a gestão de vendas conseguisse segmentar os clientes de acordo com critérios de cada campanha de marketing.
 
-**Habilidades**: Business Strategy · SQL · Qlik Sense · CRM · Customer Segmentation · Product Vision · Data Analysis
+**Habilidades**: Business Strategy · SQL · Qlik Sense · CRM · Customer Segmentation · Product Vision · Data Analysis · Python
 """)
 st.markdown("""
 ##### 2021, Cientista de Dados, Grupo Saga, Goiânia, GO, (1 ano)
 
-- Construção e disseminação de produtos de dados para as concessionárias automobilísticas de diversas marcas do Grupo Saga (Toyota, BMW, Volkswagen, entre outras).
-- Realizamos a análise de evasão de clientes em revisões programadas, análise de recompra de veículos novos e a segmentação da base de clientes por critérios do negócio.
-- Construímos também o processo de extração e recomendação de precificação de assinaturas de carros da concessionária.
+- Construí e disseminei produtos de dados para as concessionárias automobilísticas de diversas marcas do Grupo Saga (Toyota, BMW, Volkswagen, entre outras).
+- Realizei análises de evasão de clientes em revisões programadas, análises de recompra de veículos novos e propus uma segmentação da base de clientes por critérios do negócio.
+- Construí também um processo de extração e recomendação de precificação de assinaturas de carros da concessionária com base nos preços concorrentes do mercado (Localiza, Movida, Porto Seguro).
 
-**Habilidades**: Gestão de projetos · SQL · Google Cloud · Dataform · Data Scrapping · Amazon Athena · S3 · PySpark
+**Habilidades**: Gestão de projetos · SQL · Google Cloud · Dataform · Data Scrapping · Amazon Athena · S3 · PySpark · Python
 """)
 st.markdown("""
 ##### 2020, Cientista de Dados, Acordo Certo, São Paulo, SP,  (1 ano e 2 meses)
 
-- Parte de uma equipe de cientistas de dados com foco na construção de um processo de tomada de decisão para acionamentos de consumidores com inadimplência.
-- Foram desenvolvidos modelos de propensão de cadastro e de pagamento de acordo em site de marketplace de créditos inadimplidos.
-- Foi implementado modelos de LTV para estimar o valor de recuperação para cada consumidor/cliente otimizando os custos com acionamentos nos canais de sms e e-mail.
-- Diariamente alivamos as métricas relevantes para o negócio como taxa de clique, quantidade de cadastros e acordos, e entre outros.
+- Liderei tecnicamente uma equipe de cientistas de dados com foco na construção de um processo de tomada de decisão de acionamentos de consumidores com inadimplência no mercado de crédito.
+- Desenvolvi modelos de propensão de cadastro e de pagamento/acordo em um site estilo marketplace para a negociação de dívidas.
+- Construí modelos de LTV para estimar o valor de recuperação de cada consumidor/cliente otimizando os custos com acionamentos nos canais de sms e e-mail.
+- Avaliei métricas relevantes para o negócio como taxa de clique, quantidade de cadastros, quantidade de acordos, entre outros, correlacionando com o resultado dos modelos.
 
-**Habilidades**: Google Cloud · Big Query · SQL · DataForm · Modelos de Propensão · Data Studio
+**Habilidades**: Google Cloud · Big Query · SQL · DataForm · Modelos de Propensão · Data Studio · Python
 """)
 st.markdown("""
 ##### 2019, Cientista de Dados, HP Transportes, Goiânia, GO, (1 ano e 4 meses)
 
-- Extrações de dados para processos de inteligência competitiva com objetivo de otimizar estratégias de marketing de serviço de MAAS (Mobility As A Service).
-- Modelagem de dados geográficos para soluções de mobilidade urbana com foco na resolução de problemas relacionados ao transporte compartilhado na região metropolitana.
-- Estudo de conceitos de centralidades urbanas no âmbito do transporte público.
-- Construção de um produto de dados para acompanhar os preços de viagens dos serviços concorrentes (Uber e 99).
+- Extrai dados para processos de inteligência competitiva com objetivo de otimizar estratégias de marketing de serviço de MAAS (Mobility As A Service).
+- Realizei diversas modelagens de dados geográficos para soluções de mobilidade urbana com foco na resolução de problemas relacionados ao transporte compartilhado na região metropolitana.
+- Desenvolvi estudos de conceitos de centralidades urbanas no âmbito do transporte público.
+- Construí um produto de dados para acompanhar e recomendar preços de viagens de serviços de aplicativos de transporte em toda região metropolitana (Uber e 99).
 
-**Habilidades**: Qlik Sense · Google Earth · QGis · Data Scrappig 
+**Habilidades**: Qlik Sense · Google Earth · QGis · Data Scrappig · Automação de Processos (RPA) · Python
 """)
 st.markdown("""
 ##### 2018, Analista de Dados, Grupo Jaime Câmera, Goiânia, GO, (1 ano e 4 meses)
 
-- Forneci insights e soluções de SEO para produtos importantes do grupo, como o site de notícias Jornal O Popular
-- Visualização e monitoramente de indicadores-chave de desempenho relacionadas ao tráfego orgânico e pago dos sites do Grupo.
-- Modelagem e extração de dados de audiência de TV fornecidos pelo IBOPE
+- Desenvolvi relatórios de SEO para os produtos importantes da filial da TV Globo em Goiânia, como o site de notícias Jornal O Popular e o site de classificados Classi.
+- Construí visualizações e monitorei indicadores-chave de desempenho relacionadas ao tráfego de audiência orgânico e pago dos sites do grupo
+- Realizei extrações e modelagem de dados de audiência de TV fornecidos pelo IBOPE
 
-**Habilidades**: SEO · Web Development · React · Java Script · Microsoft Azure · Kantar Media
+**Habilidades**: SEO · Web Development · React · Java Script · Microsoft Azure · Kantar Media · Python
 """)
 st.markdown("""
 ##### 2015, Pesquisador, Jacobs School of Engineering, San Diego, CA, (3 meses)
 
-- Ajudei construção de uma plataforma de coleta de imagens em tempo real usando o Microsoft Kinect e C# com o objetivo de monitorar ambientes hospitalares.
-- Processamento de imagens de profundidae usadas para insumos para algoritmos de detecção de movimento e queda alertando equipes médicas sobre o estado do paciente.
+- Ajudei a construir uma plataforma de coleta de imagens em tempo real usando o Microsoft Kinect com o objetivo de monitorar ambientes hospitalares.
+- Realizei estudos para o processamento de imagens de profundida usadas em algoritmos de detecção de movimento e queda para alertas sobre o estado do paciente.
 
-**Habilidades**: C#, Microsoft Kinect SDK, Image Processing
+**Habilidades**:  C# · Microsoft Kinect SDK · Image Processing
 """)
 
 st.markdown('### Educação')
