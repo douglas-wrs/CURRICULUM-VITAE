@@ -3,7 +3,7 @@ from PIL import Image
 import pandas as pd
 import plotly.express as px
 
-st.set_page_config(layout="wide")
+st.set_page_config(layout="wide", page_title="Douglas Winston")
 
 st.title('Douglas Winston')
 st.markdown('#### Data Product Manager')
