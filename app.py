@@ -6,6 +6,7 @@ import plotly.express as px
 st.set_page_config(layout="wide")
 
 st.title('Douglas Winston')
+st.markdown('#### Data Product Manager')
 
 data = [
         {'Ano': 2019, 'Gestão de Pessoas': 0.5, 'Entrega de Valor': 1.5, 'Dados e Analytics': 2.0, 'Criatividade e Soluções': 3.0, 'Gestão de Produto': 0.5},
@@ -47,35 +48,19 @@ fig.update_layout(
         # angularaxis = dict(showticklabels=False, ticks='')
     )
 )
+coluna_header[2].write(fig)
 
-# coluna_header[1].markdown(' ')
-# coluna_header[1].markdown(' ')
-# coluna_header[1].markdown(' ')
-coluna_header[2].markdown('São Paulo, SP')
-coluna_header[2].markdown('+55 62 996990837')
-coluna_header[2].markdown('douglas.winston.r@gmail.com')
-coluna_header[2].markdown('[linkedin.com/in/douglas-winston](https://www.linkedin.com/in/douglas-winston/)')
-coluna_header[2].markdown('[github.com/douglaswinstonr](https://github.com/douglaswinstonr)')
+colunas = st.columns(4)
+colunas[0].markdown('São Paulo, SP')
+colunas[1].markdown('+55 62 996990837')
+colunas[2].markdown('douglas.winston.r@gmail.com')
+colunas[3].markdown('[linkedin.com/in/douglas-winston](https://www.linkedin.com/in/douglas-winston/)')
 
 html_componet = """<div style="text-align: center"> your-text-here </div>"""
 
-# coluna_header[1].markdown(' ')
-# coluna_header[1].markdown(' ')
-# coluna_header[1].markdown(' ')
-# coluna_header[1].markdown(' ')
-# coluna_header[1].markdown(' ')
-# coluna_header[1].markdown(' ')
-# coluna_header[1].markdown("<p style='text-align: right;'>São Paulo, SP</p>", unsafe_allow_html=True)
-# coluna_header[1].markdown("<p style='text-align: right;'>+55 62 996990837</p>", unsafe_allow_html=True)
-# coluna_header[1].markdown("<p style='text-align: right;'>douglas.winston.r@gmail.com</p>", unsafe_allow_html=True)
-# coluna_header[1].markdown("<p style='text-align: right;'>linkedin.com/in/douglas-winston</p>", unsafe_allow_html=True)
-# coluna_header[1].markdown("<p style='text-align: right;'>github.com/douglaswinstonr</p>", unsafe_allow_html=True)
-
-
-coluna_header[3].write(fig)
 st.markdown('### Experiência')
 st.markdown("""
-##### 2022, **Coordenador de Dados**, Recovery, São Paulo, SP (***1 ano e 3 meses)***
+##### 2022, **Coordenador de Dados**, Recovery, São Paulo, SP (***1 ano e 4 meses)***
 
 - Liderei um time excepcional a construir ferramentas baseadas em dados e inteligência artificial para a precificação de carteiras de créditos inadimplidos.
 - A cada Sprint fizemos descoberta de produto, testes de funcionalidade com usuários especialistas e avaliações constantes da proposta de valor de cada funcionalidade.
@@ -112,7 +97,7 @@ st.markdown("""
 - Construí modelos de LTV para estimar o valor de recuperação de cada consumidor/cliente otimizando os custos com acionamentos nos canais de sms e e-mail.
 - Avaliei métricas relevantes para o negócio como taxa de clique, quantidade de cadastros, quantidade de acordos, entre outros, correlacionando com o resultado dos modelos.
 
-**Habilidades**: Google Cloud · Big Query · SQL · DataForm · Modelos de Propensão · Data Studio · Python
+**Habilidades**: Google Cloud · Big Query · SQL · Dataform · Modelos de Propensão · Data Studio · Python
 """)
 st.markdown("""
 ##### 2019, Cientista de Dados, HP Transportes, Goiânia, GO, (1 ano e 4 meses)
